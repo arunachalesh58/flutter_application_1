@@ -6,14 +6,19 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-        child: Container(
-          color: Colors.blue[400],
-          child: Center(child: Text("Hello World",style: TextStyle(
-            fontSize: 40,
-            color: Colors.blue[900],
-            fontWeight: FontWeight.bold,
-          ),)),
+      child: Container(
+        color: Colors.red[400],
+        child: Center(
+          child: Text(
+            "Hello World",
+            style: TextStyle(
+              fontSize: 40,
+              color: Colors.blue[900],
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
-      );
+      ),
+    );
   }
 }
